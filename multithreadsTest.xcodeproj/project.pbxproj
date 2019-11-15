@@ -18,6 +18,7 @@
 		0992E085237C3F1B00D15E91 /* multithreadsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992E084237C3F1B00D15E91 /* multithreadsTestUITests.m */; };
 		0992E096237C3F6500D15E91 /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992E095237C3F6500D15E91 /* NSThreadViewController.m */; };
 		0992E099237C3F7100D15E91 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992E098237C3F7100D15E91 /* GCDViewController.m */; };
+		0992E09F237E3E0500D15E91 /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992E09E237E3E0500D15E91 /* NSOperationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		0992E095237C3F6500D15E91 /* NSThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadViewController.m; sourceTree = "<group>"; };
 		0992E097237C3F7100D15E91 /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		0992E098237C3F7100D15E91 /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		0992E09D237E3E0500D15E91 /* NSOperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationViewController.h; sourceTree = "<group>"; };
+		0992E09E237E3E0500D15E91 /* NSOperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 		0992E05C237C3F1600D15E91 /* multithreadsTest */ = {
 			isa = PBXGroup;
 			children = (
+				0992E09C237CF66400D15E91 /* NSOperation */,
 				0992E093237C3F4D00D15E91 /* GCD */,
 				0992E092237C3F4100D15E91 /* NSThread */,
 				0992E05D237C3F1700D15E91 /* AppDelegate.h */,
@@ -161,6 +165,15 @@
 				0992E098237C3F7100D15E91 /* GCDViewController.m */,
 			);
 			path = GCD;
+			sourceTree = "<group>";
+		};
+		0992E09C237CF66400D15E91 /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				0992E09D237E3E0500D15E91 /* NSOperationViewController.h */,
+				0992E09E237E3E0500D15E91 /* NSOperationViewController.m */,
+			);
+			path = NSOperation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +311,7 @@
 				0992E05F237C3F1700D15E91 /* AppDelegate.m in Sources */,
 				0992E070237C3F1B00D15E91 /* main.m in Sources */,
 				0992E062237C3F1700D15E91 /* SceneDelegate.m in Sources */,
+				0992E09F237E3E0500D15E91 /* NSOperationViewController.m in Sources */,
 				0992E096237C3F6500D15E91 /* NSThreadViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
